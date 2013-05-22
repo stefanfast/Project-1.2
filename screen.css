@@ -1,0 +1,159 @@
+body {
+  	background:	#000;
+		background-image: url(../images/stressed_linen.png);
+		background-repeat: repeat;	
+	}
+section#animation {
+		display: block;
+		width: 80%;
+		height: 640px;
+		position: relative;
+		overflow: hidden;
+		margin: 0 auto;
+		box-shadow: 10px 10px 5px #111;
+		-moz-box-shadow: 10px 10px 5px #111;
+		-webkit-box-shadow: 10px 10px 5px #111;
+		border: 4px solid #ccc;
+		opacity: 0;
+		-webkit-transition: opacity 3000ms ease-out;
+		-moz-transition: opacity 3000ms ease-out;
+		-ms-transition: opacity 3000ms ease-out;
+		-o-transition: opacity 3000ms ease-out;
+		transition: opacity 3000ms ease-out;
+	}
+
+	#background {
+		width:		100%;
+		height:		100%;
+		position:	absolute;
+		left:		0px;
+		background-image:url(../images/background.png);
+		background-position: 0px 600px;
+	} 
+
+	#ninja {
+		position:	absolute;
+		top:		300px;
+		left:		50%;
+		margin-left: -100px;
+		width:		152px;
+		height:		414px;
+		background-image:url(../images/Fshadow.png);
+		background-position: 0px 0px;
+		z-index: 100;
+	}
+	#ninja.ninja {
+		position:	absolute;
+		top:		300px;
+		left:		50%;
+		margin-left: -100px;
+		width:		152px;
+		height:		414px;
+		background-image:url(../images/Bshadow.png);
+		background-position: 0px 0px;
+		z-index:100;
+	}
+	
+	#ground-level1 {
+		position:	absolute;
+		top:		350px;
+		left:		0px;
+		width:		100%;
+		height:		300px;
+		/*margin-top:	10px;*/
+		background-image: url(../images/path.png);
+		background-position: 0px 0px;
+	}
+	
+	/*#ground-level2 {
+		position:	absolute;
+		top:		280px;
+		left:		0px;
+		width:		100%;
+		height:		400px;
+		background-image: url(../images/ground-level2.png);
+		background-position: 0px 0px;
+	}*/
+	
+	/*#ground-level3 {
+		position:	absolute;
+		top:		450px;
+		left:		0px;
+		width:		100%;
+		height:		200px;
+		background-image: url(../images/ground-level3.png);
+		background-position: 0px 0px;
+	}*/
+	
+	#ground-level4 {
+		position:	absolute;
+		top:		650px;
+		left:		0px;
+		width:		100%;
+		height:		135px;
+		background-image: url(../images/ground-level4.png);
+		background-position: 0px 0px;
+	}
+	
+	/*#clouds2 {
+		position:	absolute;
+		top:		120px;
+		left:		0px;
+		width:		100%;
+		height:		400px;
+		border: 0px solid red;
+		background-image: url(../images/clouds-level2.png);
+		background-position: 0px 0px;
+	}*/
+	
+	#clouds1 {
+		position:	absolute;
+		top:		-70px;
+		left:		0px;
+		width:		100%;
+		height:		400px;
+		background-image: url(../images/cloud.png);
+		background-position: 0px 0px;
+	}
+	#tree {
+		position:	absolute;
+		top:		-50px;
+		left:		0px;
+		width:		100%;
+		height:		1118px;
+		background-image: url(../images/treeright.png);
+		background-position: 0px 60%;
+		background-repeat: no-repeat;
+		z-index:50;
+	}
+	#treesmall {
+		position:	absolute;
+		top:		0px;
+		left:		0px;
+		width:		100%;
+		height:		700px;
+		background-image: url(../images/treeright700px.png);
+		background-position: 0px 60%;
+		background-repeat: no-repeat;
+		z-index:50;
+	}
+	
+	
+	#title {
+		width:		560px;
+		height:		217px;
+		position:	absolute;
+		top:		-100px;
+		left:		50%;
+		margin-left:-280px;
+		background:	transparent url(../images/title.png) no-repeat top left;
+		opacity: 0;	
+		-webkit-transition: all 2000ms ease-out;
+		-moz-transition: all 2000ms ease-out;
+		-ms-transition: all 2000ms ease-out;
+		-o-transition: all 2000ms ease-out;
+		transition: all 2000ms ease-out;
+
+	} 
+	
+	
